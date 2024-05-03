@@ -8,9 +8,6 @@ public class Main {
 		list1.add(8);
 		list1.add(0);
 		list1.add(2);
-		System.out.println(list1);
-
-
 	}
 
 }
