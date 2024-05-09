@@ -12,4 +12,19 @@ public class LinkedList {
 	
 	}
 
+	public String toString(){
+		String result = “”;
+   		//Start at the beginning
+		ListNode current = list;
+		//Loop while not on last node
+		while(current != null){
+			//Add the value of current to result
+			/* todo */
+			//Set current to next node
+			/* todo */
+		} 
+		return result;
+	}
+
+
 }
