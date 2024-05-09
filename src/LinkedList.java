@@ -9,17 +9,7 @@ public class LinkedList {
 	}
 
 	public void add(Integer n) {
-		ListNode newNode = new ListNode(n);
-		if (list == null) {
-			list = newNode;
-		} else {
-			ListNode current = list;
-			while (current.getNext() != null) { // exception thrown
-				current = current.getNext();
-			}
-			// Insert the new node
-			current.setNext(newNode);
-		}
+	
 	}
 
 }
